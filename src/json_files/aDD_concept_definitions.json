@@ -1,0 +1,550 @@
+{
+    "current_nbbo_bid_price": {
+        "definition": "The highest price a buyer is willing to pay for a security",
+        "data_type": "double precision"
+    },
+    "current_nbbo_ask_price": {
+        "definition": "The lowest price a seller is willing to accept for a security",
+        "data_type": "double precision"
+    },
+    "last_trade_volume": {
+        "definition": "The total number of shares traded during the most recent trade",
+        "data_type": "bigint"
+    },
+    "current_nbbo_bid_size": {
+        "definition": "The number of shares buyers want to buy at a specific price",
+        "data_type":"bigint"
+    },
+    "current_nbbo_ask_size": { 
+        "definition": "The number of shares sellers want to sell at a specific price",
+        "data_type": "bigint"
+    },
+    "phone": {
+        "definition": "The contact phone number of the company",
+        "data_type": "text"
+    },
+    "longBusinessSummary": {
+        "definition": "A brief description of the company and its business operations",
+        "data_type": "text"
+    },
+    "maxAge": {
+        "definition": "The maximum age of the data provided",
+        "data_type": "bigint"
+    },
+    "priceHint": {
+        "definition": "The decimal precision of the price data",
+        "data_type": "bigint"
+    },
+    "previousClose": {
+        "definition": "The price at which the stock last traded during the previous trading session",
+        "data_type": "double precision"
+    },
+    "open": {
+        "definition": "The price at which the stock started trading for the current trading session",
+        "data_type": "double precision"
+    },
+    "dayLow": {
+        "definition": "The lowest price at which the stock has traded during the current trading session",
+        "data_type": "double precision"
+    },
+    "dayHigh": {
+        "definition": "The highest price at which the stock has traded during the current trading session",
+        "data_type": "double precision"
+    },
+    "regularMarketPreviousClose": {
+        "definition": "The last closing price in the regular trading session",
+        "data_type": "double precision"
+    },
+    "regularMarketOpen": {
+        "definition": "The price at which the stock opened in the regular trading session",
+        "data_type": "double precision"
+    },
+    "regularMarketDayLow": {
+        "definition": "The lowest price of the stock in the regular trading session",
+        "data_type": "double precision"
+    },
+    "regularMarketDayHigh": {
+        "definition": "The highest price of the stock in the regular trading session",
+        "data_type": "double precision"
+    },
+    "trailingPE": {
+        "definition": "The price-to-earnings ratio based on the last twelve months of earnings",
+        "data_type": "double precision"
+    },
+    "volume": {
+        "definition": "The total number of shares traded during the current trading session",
+        "data_type": "bigint"
+    },
+    "regularMarketVolume": {
+        "definition": "The total number of shares traded in the regular market session",
+        "data_type": "integer"
+    },
+    "averageVolume": {
+        "definition": "The average daily trading volume over a specified period",
+        "data_type": "bigint"
+    },
+    "averageVolume10days": {
+        "definition": "The average daily trading volume over the last 10 days",
+        "data_type": "bigint"
+    },
+    "averageDailyVolume10Day": {
+        "definition": "The average daily trading volume for the last 10 days",
+        "data_type": "bigint"
+    },
+    "totalAssets": {
+        "definition": "The total value of a company's assets",
+        "data_type": "double precision"
+    },
+    "fiftyTwoWeekLow": {
+        "definition": "The lowest price of the stock in the last 52 weeks",
+        "data_type": "double precision"
+    },
+    "fiftyTwoWeekHigh": {
+        "definition": "The highest price of the stock in the last 52 weeks",
+        "data_type": "double precision"
+    },
+    "fiftyDayAverage": {
+        "definition": "The average stock price over the last 50 days",
+        "data_type": "double precision"
+    },
+    "twoHundredDayAverage": {
+        "definition": "The average stock price over the last 200 days",
+        "data_type": "double precision"
+    },
+    "navPrice": {
+        "definition": "The net asset value per share of a fund",
+        "data_type": "double precision"
+    },
+    "currency": {
+        "definition": "The currency in which the stock is traded",
+        "data_type": "text"
+    },
+    "category": {
+        "definition": "The industry category to which the company belongs",
+        "data_type": "text"
+    },
+    "ytdReturn": {
+        "definition": "The return on investment from the start of the year to date",
+        "data_type": "double precision"
+    },
+    "fundFamily": {
+        "definition": "The financial institution that manages the fund",
+        "data_type": "text"
+    },
+    "fundInceptionDate": {
+        "definition": "The date on which the fund was established",
+        "data_type": "timestamp with time zone"
+    },
+    "legalType": {
+        "definition": "The legal classification of the company",
+        "data_type": "text"
+    },
+    "exchange": {
+        "definition": "The stock exchange where the security is listed",
+        "data_type": "text"
+    },
+    "quoteType": {
+        "definition": "The type of asset (e.g., equity, ETF, mutual fund, etc.)",
+        "data_type": "text"
+    },
+    "symbol": {
+        "definition": "The trading symbol of the stock",
+        "data_type": "text"
+    },
+    "underlyingSymbol": {
+        "definition": "The symbol of the underlying asset in derivatives",
+        "data_type": "text"
+    },
+    "shortName": {
+        "definition": "The abbreviated name of the company",
+        "data_type": "text"
+    },
+    "longName": {
+        "definition": "The full name of the company",
+        "data_type": "text"
+    },
+    "firstTradeDateEpochUtc": {
+        "definition": "The date and time of the stock’s first trade in epoch format",
+        "data_type": "timestamp with time zone"
+    },
+    "timeZoneFullName": {
+        "definition": "The full name of the time zone for the exchange",
+        "data_type": "text"
+    },
+    "timeZoneShortName": {
+        "definition": "The short name of the time zone for the exchange",
+        "data_type": "text"
+    },
+    "uuid": {
+        "definition": "A unique identifier for the stock",
+        "data_type": "text"
+    },
+    "messageBoardId": {
+        "definition": "An ID for the message board where discussions about the stock take place",
+        "data_type": "text"
+    },
+    "gmtOffSetMilliseconds": {
+        "definition": "The time difference from GMT in milliseconds",
+        "data_type": "bigint"
+    },
+    "trailingPegRatio": {
+        "definition": "A modified price/earnings-to-growth ratio based on trailing earnings",
+        "data_type": "text"
+    },
+    "address1": {
+        "definition": "The primary address of the company",
+        "data_type": "text"
+    },
+    "address2": {
+        "definition": "The secondary address of the company",
+        "data_type": "text"
+    },
+    "city": {
+        "definition": "The city where the company is headquartered",
+        "data_type": "text"
+    },
+    "state": {
+        "definition": "The state where the company is headquartered",
+        "data_type": "text"
+    },
+    "zip": {
+        "definition": "The postal code of the company’s headquarters",
+        "data_type": "integer"
+    },
+    "country": {
+        "definition": "The country where the company is headquartered",
+        "data_type": "text"
+    },
+    "website": {
+        "definition": "The official website of the company",
+        "data_type": "text"
+    },
+    "industry": {
+        "definition": "The industry classification of the company",
+        "data_type": "text"
+    },
+    "sector": {
+        "definition": "The sector classification of the company",
+        "data_type": "text"
+    },
+    "marketCap": {
+        "definition": "The total market value of the company’s outstanding shares",
+        "data_type": "bigint"
+    },
+    "sharesOutstanding": {
+        "definition": "The total number of shares issued by the company",
+        "data_type": "bigint"
+    },
+    "heldPercentInstitutions": {
+        "definition": "The percentage of shares held by institutional investors",
+        "data_type": "double precision"
+    },
+    "bookValue": {
+        "definition": "The total value of assets minus liabilities per share",
+        "data_type": "double precision"
+    },
+    "priceToBook": {
+        "definition": "The ratio of the stock price to its book value",
+        "data_type": "double precision"
+    },
+    "lastFiscalYearEnd": {
+        "definition": "The end date of the last fiscal year",
+        "data_type": "timestamp with time zone"
+    },
+    "nextFiscalYearEnd": {
+        "definition": "The expected end date of the next fiscal year",
+        "data_type": "timestamp with time zone"
+    },
+    "mostRecentQuarter": {
+        "definition": "The last reported financial quarter",
+        "data_type": "timestamp with time zone"
+    },
+    "trailingEps": {
+        "definition": "The earnings per share for the last twelve months",
+        "data_type": "double precision"
+    },
+    "lastSplitFactor": {
+        "definition": "The ratio of the last stock split",
+        "data_type": "text"
+    },
+    "lastSplitDate": {
+        "definition": "The date of the last stock split",
+        "data_type": "timestamp with time zone"
+    },
+    "52WeekChange": {
+        "definition": "The percentage change in stock price over the last 52 weeks",
+        "data_type": "double precision"
+    },
+    "SandP52WeekChange": {
+        "definition": "The stock’s performance relative to the S&P 500 over 52 weeks",
+        "data_type": "double precision"
+    },
+    "currentPrice": {
+        "definition": "The latest traded price of the stock",
+        "data_type": "double precision"
+    },
+    "recommendationKey": {
+        "definition": "The stock's analyst recommendation rating",
+        "data_type": "text"
+    },
+    "financialCurrency": {
+        "definition": "The currency used in financial reporting",
+        "data_type": "text"
+    },
+    "fullTimeEmployees": {
+        "definition": "The number of full-time employees in the company",
+        "data_type": "integer"
+    },
+    "exDividendDate": {
+        "definition": "The date when a stock starts trading without the dividend",
+        "data_type": "timestamp with time zone"
+    },
+    "priceToSalesTrailing12Months": {
+        "definition": "The ratio of price to revenue for the last 12 months",
+        "data_type": "double precision"
+    },
+    "enterpriseValue": {
+        "definition": "The total value of the company, including debt and equity",
+        "data_type": "bigint"
+    },
+    "floatShares": {
+        "definition": "The number of shares available for trading",
+        "data_type": "bigint"
+    },
+    "sharesShort": {
+        "definition": "The total number of shares sold short",
+        "data_type": "double precision"
+    },
+    "sharesShortPriorMonth": {
+        "definition": "The number of shares sold short in the previous month",
+        "data_type": "double precision"
+    },
+    "sharesShortPreviousMonthDate": {
+        "definition": "The date of the previous month's short interest report",
+        "data_type": "timestamp with time zone"
+    },
+    "dateShortInterest": {
+        "definition": "The date of the short interest report",
+        "data_type": "timestamp with time zone"
+    },
+    "sharesPercentSharesOut": {
+        "definition": "The percentage of shares outstanding that are shorted",
+        "data_type": "double precision"
+    },
+    "heldPercentInsiders": {
+        "definition": "The percentage of shares held by insiders",
+        "data_type": "double precision"
+    },
+    "shortRatio": {
+        "definition": "The number of days required to cover short positions",
+        "data_type": "double precision"
+    },
+    "shortPercentOfFloat": {
+        "definition": "The percentage of the float that is shorted",
+        "data_type": "double precision"
+    },
+    "netIncomeToCommon": {
+        "definition": "The net income available to common shareholders",
+        "data_type": "double precision"
+    },
+    "enterpriseToRevenue": {
+        "definition": "The ratio of enterprise value to revenue",
+        "data_type": "double precision"
+    },
+    "lastDividendValue": {
+        "definition": "The amount of the last dividend paid per share",
+        "data_type": "double precision"
+    },
+    "lastDividendDate": {
+        "definition": "The date of the last dividend payment",
+        "data_type": "timestamp with time zone"
+    },
+    "totalCash": {
+        "definition": "The total cash available to the company",
+        "data_type": "bigint"
+    },
+    "totalCashPerShare": {
+        "definition": "The total cash per share available",
+        "data_type": "double precision"
+    },
+    "totalDebt": {
+        "definition": "The total debt held by the company",
+        "data_type": "double precision"
+    },
+    "quickRatio": {
+        "definition": "The ratio of liquid assets to current liabilities",
+        "data_type": "double precision"
+    },
+    "currentRatio": {
+        "definition": "The ratio of current assets to current liabilities",
+        "data_type": "double precision"
+    },
+    "totalRevenue": {
+        "definition": "The total revenue generated by the company",
+        "data_type": "bigint"
+    },
+    "debtToEquity": {
+        "definition": "The ratio of total debt to shareholders' equity",
+        "data_type": "double precision"
+    },
+    "revenuePerShare": {
+        "definition": "The revenue generated per outstanding share",
+        "data_type": "double precision"
+    },
+    "grossProfits": {
+        "definition": "The total profit after subtracting the cost of goods sold",
+        "data_type": "bigint"
+    },
+    "operatingCashflow": {
+        "definition": "The cash generated from the company's operations",
+        "data_type": "bigint"
+    },
+    "revenueGrowth": {
+        "definition": "The rate at which the company's revenue is growing",
+        "data_type": "double precision"
+    },
+    "operatingMargins": {
+        "definition": "The percentage of revenue remaining after operating expenses",
+        "data_type": "double precision"
+    },
+    "fiveYearAvgDividendYield": {
+        "definition": "The average annual dividend yield of a stock over the past five years, expressed as a percentage",
+        "data_type": "double precision"
+    },
+    "beta": {
+        "definition": "A measure of a stock's volatility compared to the market",
+        "data_type": "double precision"
+    },
+    "forwardPE": {
+        "definition": "The price-to-earnings ratio based on projected future earnings",
+        "data_type": "double precision" 
+    },
+    "profitMargins": {
+        "definition": "The percentage of revenue retained as profit after expenses",
+        "data_type": "double precision"
+    },
+    "impliedSharesOutstanding": {
+        "definition": "The estimated number of shares available in the market",
+        "data_type": "bigint"
+    },
+    "forwardEps": {
+        "definition": "The projected earnings per share for the next period",
+        "data_type": "double precision"
+    },
+    "enterpriseToEbitda": {
+        "definition": "The ratio of enterprise value to EBITDA",
+        "data_type": "double precision"
+    },
+    "targetHighPrice": {
+        "definition": "The highest forecasted stock price by analysts",
+        "data_type": "double precision"
+    },
+    "targetLowPrice": {
+        "definition": "The lowest stock price estimate based on analysts' projections for future performance",
+        "data_type": "double precision"
+    },
+    "targetMeanPrice": {
+        "definition": "The average of analysts' projected stock prices over a given period",
+        "data_type": "double precision"
+    },
+    "targetMedianPrice": {
+        "definition": "The median value of analysts' projected stock prices",
+        "data_type": "double precision"
+    },
+    "recommendationMean": {
+        "definition": "The average of analysts' stock recommendation ratings",
+        "data_type": "double precision"
+    },
+    "numberOfAnalystOpinions": {
+        "definition": "The number of financial analysts who have provided their ratings or opinions on the stock",
+        "data_type": "bigint"
+    },
+    "ebitda": {
+        "definition": "A company's profit from core operations excluding interest, taxes, depreciation, and amortization",
+        "data_type": "bigint"
+    },
+    "returnOnAssets": {
+        "definition": "A measure of how efficiently a company uses its assets to generate profit",
+        "data_type": "double precision"
+    },
+    "returnOnEquity": {
+        "definition": "A measure of a company's profitability relative to shareholders' equity",
+        "data_type": "double precision"
+    },
+    "freeCashflow": {
+        "definition": "The cash available after operating expenses and capital expenditures",
+        "data_type": "bigint"
+    },
+    "grossMargins": {
+        "definition": "The percentage of revenue remaining after the cost of goods sold",
+        "data_type": "double precision"
+    },
+    "ebitdaMargins": {
+        "definition": "The percentage of revenue represented by EBITDA",
+        "data_type": "double precision"
+    },
+    "auditRisk": {
+        "definition": "The risk of inaccuracies or fraud in a company's financial statements",
+        "data_type": "double precision"
+    },
+    "boardRisk": {
+        "definition": "The risk associated with a company's board structure and governance",
+        "data_type": "double precision"
+    },
+    "shareHolderRightsRisk": {
+        "definition": "The risk related to shareholders' ability to influence company decisions",
+        "data_type":"double precision"
+    },
+    "overallRisk": {
+        "definition": "The combined risk from financial, governance, and operational factors",
+        "data_type": "double precision"
+    },
+    "governanceEpochDate": {
+        "definition": "The date when the latest governance risk assessment was conducted",
+        "data_type": "timestamp with time zone"
+    },
+    "earningsQuarterlyGrowth": {
+        "definition": "The year-over-year growth rate of earnings for the latest quarter",
+        "data_type": "double precision"
+    },
+    "earningsGrowth":{
+        "definition": "The year-over-year growth rate of a company's earnings",
+        "data_type": "double precision"
+    },
+    "beta3Year": {
+        "definition": "A stock's volatility relative to the market over the past three years",
+        "data_type": "double precision"
+    },
+    "threeYearAverageReturn": {
+        "definition": "The average annual return of an investment over three years",
+        "data_type": "double precision"
+    },
+    "fiveYearAverageReturn": {
+        "definition": "The average annual return of an investment over five years",
+        "data_type": "double precision"
+    },
+    "yield": {
+        "definition": "The annual dividend income as a percentage of the investment's market price",
+        "data_type": "double precision"
+    },
+    "dividendRate": {
+        "definition": "The total annual dividend paid per share",
+        "data_type": "double precision"
+    },
+    "dividendYield": {
+        "definition": "The annual dividend income as a percentage of the stock's current price",
+        "data_type": "double precision"
+    },
+    "payoutRatio": {
+        "definition": "The percentage of earnings paid out as dividends to shareholders",
+        "data_type": "double precision"
+    },
+    "trailingAnnualDividendRate": {
+        "definition": "The total dividends paid per share over the past 12 months",
+        "data_type": "double precision"
+    },
+    "trailingAnnualDividendYield": {
+        "definition": "The dividend yield based on the past 12 months of dividends",
+        "data_type": "double precision"
+    } 
+}
